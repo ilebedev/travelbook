@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <!-- DEBUG: android:apiKey="02WU5N8GEFaeg2W8drA8wYwdIknmqH72qIVgvig" -->
+    <!-- RELEASE: android:apiKey="02WU5N8GEFacJ48O1KkuPKK9m2ezYBeXWTRm58A" -->
+    <mit.six.ui.travelbook.JournalMapView
+        android:id="@+id/map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:apiKey="0tFg9qCKCXTwDSX0BNb5sp-LijPWgA47QgVyikg"
+        android:clickable="true" />
+    
+    <mit.six.ui.travelbook.FancyScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/stripes_repeat" >
+
+        <LinearLayout
+            android:id="@+id/entry_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </mit.six.ui.travelbook.FancyScrollView>
+</LinearLayout>

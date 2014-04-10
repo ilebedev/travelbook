@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="db_name">TravelBookDB</string>
+    <item name="db_version" type="integer" format="integer">1</item>
+    <item type="id" name="menu_share">0</item>
+    <item type="id" name="menu_view">1</item>
+    <item type="id" name="menu_edit">2</item>
+    <item type="id" name="menu_delete">3</item>
+    <item name="menu_save" type="id">4</item>
+</resources>

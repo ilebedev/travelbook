@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/navigate_between_posts"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+    <!--
+    <ScrollView
+        android:id="@+id/view_scrollable"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/entryview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/date_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" >
+            </TextView>
+
+			<ScrollView
+                android:id="@+id/edit_photo_scroll"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+	            <LinearLayout
+	                xmlns:android="http://schemas.android.com/apk/res/android"
+	                android:id="@+id/photo_list"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="10dip"
+	                android:orientation="horizontal" >
+	            </LinearLayout>
+	        </ScrollView>
+	        
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+    -->
+</LinearLayout>

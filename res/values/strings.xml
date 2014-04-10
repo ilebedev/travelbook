@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TravelBook</string><string name="app_description">A journaling application to record events when they happen, and share them later.</string>
+    
+    
+    
+    <string name="hello">change this! Use strings in res/values/strings.xml for all constants!</string>
+    
+    
+    
+    <string name="add_entry">Add Entry</string>
+    
+    
+
+</resources>
